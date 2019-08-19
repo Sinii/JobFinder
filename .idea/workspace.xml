@@ -23,6 +23,7 @@
       <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jobdescriptionfeature/src/test/java/com/example/jobdescriptionfeature/ui/JobDescriptionViewModelTest.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/joblistfeature/build/generated/source/buildConfig/debug/com/anton/joblistfeature/BuildConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/joblistfeature/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/joblistfeature/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json" afterDir="false" />
@@ -33,54 +34,17 @@
       <change afterPath="$PROJECT_DIR$/joblistfeature/build/intermediates/navigation_json/debug/navigation.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/joblistfeature/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/adapters/BindingAdapters.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/fragment_fade_in.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/fragment_fade_out.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_bottom_to_top.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_left.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_right.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_top_to_bottom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_bottom_to_top.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_left.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_right.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_top_to_bottom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/logo_background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/news_place_holder.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/place_holder.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/favoritboldres.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/favoritebold.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/favoritelight.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/favoriteregular.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/favoritlightres.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/favoritregularres.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/base/base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/base/base.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/example/base/adapters/BaseAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/example/base/adapters/BaseAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/example/base/ui/BaseFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/example/base/ui/BaseFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobdescriptionfeature/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/jobdescriptionfeature/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jobdescriptionfeature/jobdescriptionfeature.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jobdescriptionfeature/jobdescriptionfeature.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobdescriptionfeature/src/main/java/com/example/jobdescriptionfeature/ui/JobDescriptionFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/jobdescriptionfeature/src/main/java/com/example/jobdescriptionfeature/ui/JobDescriptionFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobdescriptionfeature/src/main/java/com/example/jobdescriptionfeature/ui/JobDescriptionViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/jobdescriptionfeature/src/main/java/com/example/jobdescriptionfeature/ui/JobDescriptionViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobdescriptionfeature/src/main/res/layout/fragment_job_description.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jobdescriptionfeature/src/main/res/layout/fragment_job_description.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobdescriptionfeature/src/test/java/com/example/jobdescriptionfeature/ExampleUnitTest.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/joblistfeature/joblistfeature.iml" beforeDir="false" afterPath="$PROJECT_DIR$/joblistfeature/joblistfeature.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joblistfeature/src/main/java/com/anton/joblistfeature/ui/JobListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/joblistfeature/src/main/java/com/anton/joblistfeature/ui/JobListFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joblistfeature/src/main/java/com/anton/joblistfeature/ui/JobListViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/joblistfeature/src/main/java/com/anton/joblistfeature/ui/JobListViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joblistfeature/src/main/java/com/anton/joblistfeature/ui/adapter/JobViewHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/joblistfeature/src/main/java/com/anton/joblistfeature/ui/adapter/JobViewHolder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joblistfeature/src/main/java/com/anton/joblistfeature/ui/adapter/JobsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/joblistfeature/src/main/java/com/anton/joblistfeature/ui/adapter/JobsAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joblistfeature/src/test/java/com/anton/joblistfeature/ui/ConverterViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/joblistfeature/src/test/java/com/anton/joblistfeature/ui/ConverterViewModelTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/models.iml" beforeDir="false" afterPath="$PROJECT_DIR$/models/models.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/src/main/java/com/example/interfaces/JobItemClickListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/com/example/interfaces/JobItemClickListener.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/src/main/java/com/example/rates/JobItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/com/example/jobs/JobItem.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/network/network.iml" beforeDir="false" afterPath="$PROJECT_DIR$/network/network.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/java/com/example/network/di/CustomRequesterModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/com/example/network/di/CustomRequesterModule.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repository/repository.iml" beforeDir="false" afterPath="$PROJECT_DIR$/repository/repository.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/com/example/usecase/exchangerates/GetJobItemsUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/com/example/usecase/job/GetJobItemsUseCase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/com/example/usecase/exchangerates/GetJobListUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/com/example/usecase/job/GetJobListUseCase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/src/test/java/com/example/usecase/exchangerates/DoConvertExchangeRateToRateItemUseCaseTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/test/java/com/example/usecase/exchangerates/DoConvertExchangeRateToRateItemUseCaseTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/test/java/com/example/usecase/exchangerates/DoConvertExchangeRateToRateItemUseCaseTest.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/usecase/src/test/java/com/example/usecase/exchangerates/GetJobItemsUseCaseTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/test/java/com/example/usecase/exchangerates/GetJobItemsUseCaseTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usecase/usecase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/usecase.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/utils/utils.iml" afterDir="false" />
@@ -113,72 +77,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/src/main/java/com/example/ApiError.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/network/src/main/java/com/example/network/retrofit/RetrofitJobList.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/network/src/main/java/com/example/network/di/RetrofitModule.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/network/src/main/java/com/example/network/di/JobsFeatureNetworkModule.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/network/src/main/java/com/example/network/di/CustomRequesterModule.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repository/src/main/java/com/example/repository/jobs/JobsRepository.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/example/utils/BindingAdapter.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-              <folding>
-                <element signature="e#27#101#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/example/utils/Extensions.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1139">
@@ -189,19 +87,87 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
               <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
             </state>
           </provider>
+          <provider editor-type-id="android-manifest" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jobdescriptionfeature/src/main/java/com/example/jobdescriptionfeature/ui/JobDescriptionViewModel.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jobdescriptionfeature/src/test/java/com/example/jobdescriptionfeature/ui/JobDescriptionViewModelTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+              <folding>
+                <element signature="e#46#180#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jobdescriptionfeature/src/main/java/com/example/jobdescriptionfeature/ui/JobDescriptionViewModel.kt">
+        <entry file="file://$PROJECT_DIR$/usecase/src/test/java/com/example/usecase/exchangerates/GetJobItemsUseCaseTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+            <state relative-caret-position="85">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/usecase/src/main/java/com/example/usecase/job/GetJobListUseCase.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jobdescriptionfeature/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1309">
+              <caret line="77" selection-start-line="65" selection-start-column="4" selection-end-line="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joblistfeature/src/main/res/navigation/job_list_navigation_graph.xml">
+          <provider editor-type-id="nav-designer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jobdescriptionfeature/src/main/res/layout/fragment_job_description.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="1632">
+              <caret line="96" column="44" selection-start-line="96" selection-start-column="44" selection-end-line="96" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -213,6 +179,7 @@
       <list>
         <option value="navigationResourceFile" />
         <option value="Kotlin File" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -230,6 +197,7 @@
       <find>Navigator.Extras</find>
       <find>safe</find>
       <find>companyImageView</find>
+      <find>jobdescription</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -238,8 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/usecase/src/main/java/com/example/usecase/exchangerates/GetExchangeRatesUseCase.kt" />
-        <option value="$PROJECT_DIR$/network/src/main/java/com/example/network/di/ConverterFeatureNetworkModule.kt" />
         <option value="$PROJECT_DIR$/models/src/main/java/com/example/jobs/JobListResult.kt" />
         <option value="$PROJECT_DIR$/network/src/main/java/com/example/network/di/JobsFeatureNetworkModule.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/di/AppComponent.kt" />
@@ -274,29 +240,31 @@
         <option value="$PROJECT_DIR$/joblistfeature/src/main/java/com/anton/joblistfeature/ui/adapter/JobViewHolder.kt" />
         <option value="$PROJECT_DIR$/usecase/src/main/java/com/example/usecase/exchangerates/GetJobItemsUseCase.kt" />
         <option value="$PROJECT_DIR$/models/src/main/java/com/example/rates/JobItem.kt" />
-        <option value="$PROJECT_DIR$/joblistfeature/src/main/res/navigation/job_list_navigation_graph.xml" />
-        <option value="$PROJECT_DIR$/jobdescriptionfeature/build.gradle" />
         <option value="$PROJECT_DIR$/jobdescriptionfeature/src/main/java/com/example/jobdescriptionfeature/ui/JobDescriptionFragment.kt" />
         <option value="$PROJECT_DIR$/joblistfeature/src/main/res/layout/item_job.xml" />
         <option value="$PROJECT_DIR$/joblistfeature/src/main/java/com/anton/joblistfeature/ui/JobListFragment.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/adapters/BindingAdapters.kt" />
         <option value="$PROJECT_DIR$/utils/build.gradle" />
         <option value="$PROJECT_DIR$/utils/src/main/java/com/example/utils/BindingAdapter.kt" />
-        <option value="$PROJECT_DIR$/jobdescriptionfeature/src/main/res/layout/fragment_job_description.xml" />
         <option value="$PROJECT_DIR$/base/src/main/java/com/example/base/adapters/BaseAdapter.kt" />
         <option value="$PROJECT_DIR$/base/src/main/java/com/example/base/ui/BaseFragment.kt" />
         <option value="$PROJECT_DIR$/joblistfeature/src/main/java/com/anton/joblistfeature/ui/JobListViewModel.kt" />
         <option value="$PROJECT_DIR$/network/src/main/java/com/example/network/di/CustomRequesterModule.kt" />
         <option value="$PROJECT_DIR$/utils/src/main/java/com/example/utils/Extensions.kt" />
         <option value="$PROJECT_DIR$/jobdescriptionfeature/src/main/java/com/example/jobdescriptionfeature/ui/JobDescriptionViewModel.kt" />
+        <option value="$PROJECT_DIR$/joblistfeature/src/main/res/navigation/job_list_navigation_graph.xml" />
+        <option value="$PROJECT_DIR$/jobdescriptionfeature/src/main/res/layout/fragment_job_description.xml" />
+        <option value="$PROJECT_DIR$/jobdescriptionfeature/build.gradle" />
+        <option value="$PROJECT_DIR$/jobdescriptionfeature/src/test/java/com/example/jobdescriptionfeature/ui/JobDescriptionViewModelTest.kt" />
+        <option value="$PROJECT_DIR$/usecase/src/test/java/com/example/usecase/exchangerates/GetJobItemsUseCaseTest.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-2329" />
+    <option name="y" value="-9" />
+    <option name="width" value="2420" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -307,6 +275,79 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JobFinder" type="58d84e3e:PackageViewProjectNode" />
+              <item name="JobFinder" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="JobFinder" type="58d84e3e:PackageViewProjectNode" />
+              <item name="JobFinder" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="repository" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="JobFinder" type="58d84e3e:PackageViewProjectNode" />
+              <item name="JobFinder" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="repository" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="repository" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JobFinder" type="1abcf292:AndroidViewProjectNode" />
+              <item name="usecase" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="JobFinder" type="1abcf292:AndroidViewProjectNode" />
+              <item name="usecase" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="JobFinder" type="1abcf292:AndroidViewProjectNode" />
+              <item name="usecase" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JobFinder" type="1abcf292:AndroidViewProjectNode" />
+              <item name="usecase" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JobFinder" type="1abcf292:AndroidViewProjectNode" />
+              <item name="usecase" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="usecase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JobFinder" type="1abcf292:AndroidViewProjectNode" />
+              <item name="usecase" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="usecase" type="462c0819:PsiDirectoryNode" />
+              <item name="exchangerates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JobFinder" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -426,45 +467,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JobFinder" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JobFinder" type="58d84e3e:PackageViewProjectNode" />
-              <item name="JobFinder" type="eaaa3913:PackageViewModuleGroupNode" />
-            </path>
-            <path>
-              <item name="JobFinder" type="58d84e3e:PackageViewProjectNode" />
-              <item name="JobFinder" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="repository" type="eaaa3913:PackageViewModuleGroupNode" />
-            </path>
-            <path>
-              <item name="JobFinder" type="58d84e3e:PackageViewProjectNode" />
-              <item name="JobFinder" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="repository" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="repository" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/jobdescriptionfeature/src/test/java/com/example/jobdescriptionfeature" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/joblistfeature/src/main/res" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
@@ -478,16 +488,22 @@
       <recent name="com.anton.converterfeature.ui.JobList" />
       <recent name="com.anton.converterfeature.ui.JobDescription" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\StudioProjects\JobFinder\joblistfeature\src\main\res" />
-      <recent name="C:\Users\Admin\StudioProjects\JobFinder\base\src\main\res" />
-      <recent name="C:\Users\Admin\StudioProjects\JobFinder" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.jobdescriptionfeature.ui" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="com.example.network.di" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\StudioProjects\JobFinder\joblistfeature\src\main\java\com\anton\converterfeature\ui" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\StudioProjects\JobFinder\joblistfeature\src\main\res" />
+      <recent name="C:\Users\Admin\StudioProjects\JobFinder\base\src\main\res" />
+      <recent name="C:\Users\Admin\StudioProjects\JobFinder" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -502,7 +518,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android JUnit.JobDescriptionViewModelTest.check job details data">
+    <configuration name="JobDescriptionViewModelTest.check job details data" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jobdescriptionfeature" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.jobdescriptionfeature.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.jobdescriptionfeature.ui" />
+      <option name="MAIN_CLASS_NAME" value="com.example.jobdescriptionfeature.ui.JobDescriptionViewModelTest" />
+      <option name="METHOD_NAME" value="check job details data" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -563,6 +596,11 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.JobDescriptionViewModelTest.check job details data" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -589,30 +627,37 @@
       <option name="project" value="LOCAL" />
       <updated>1566209539984</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="self review">
+      <created>1566211293817</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566211293817</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1927" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.29957357" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21208054" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="6" />
-      <window_info id="Resources Explorer" order="7" weight="0.32995737" />
+      <window_info id="Resources Explorer" order="7" weight="0.3295302" />
       <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Run" order="0" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.49932885" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.2340195" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32827735" />
-      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.24052005" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50067115" side_tool="true" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.49932885" weight="0.3286119" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4986577" weight="0.31303117" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32827735" />
       <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -652,76 +697,23 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="add job description page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add job description page" />
+    <MESSAGE value="self review" />
+    <option name="LAST_COMMIT_MESSAGE" value="self review" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/usecase/src/test/java/com/example/usecase/exchangerates/DoConvertExchangeRateToRateItemUseCaseTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usecase/src/main/java/com/example/usecase/job/GetJobItemsUseCase.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joblistfeature/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joblistfeature/build/generated/source/navigation-args/debug/com/example/jobdescriptionfeature/ui/JobDescriptionFragmentArgs.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="67" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.navigation/navigation-runtime/1.0.0/fc575d297c8c49c50f6288d789ff617657992f93/navigation-runtime-1.0.0-sources.jar!/androidx/navigation/NavController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="809" column="17" selection-start-line="809" selection-start-column="17" selection-end-line="809" selection-end-column="17" />
-          <folding>
-            <element signature="e#18571#18572#0" expanded="true" />
-            <element signature="e#18613#18614#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/joblistfeature/src/main/res/layout/item_job.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joblistfeature/src/main/res/navigation/job_list_navigation_graph.xml">
-      <provider editor-type-id="nav-designer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/joblistfeature/src/main/res/layout/fragment_job_list.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobdescriptionfeature/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -745,17 +737,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/logo_background.png" />
-    <entry file="file://$PROJECT_DIR$/jobdescriptionfeature/src/main/res/layout/fragment_job_description.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="95" column="44" selection-start-line="95" selection-start-column="44" selection-end-line="95" selection-end-column="44" />
-          <folding>
-            <element signature="e#323#3032#0" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/place_holder.png">
       <provider selected="true" editor-type-id="images" />
@@ -989,8 +970,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jobdescriptionfeature/src/main/java/com/example/jobdescriptionfeature/ui/JobDescriptionViewModel.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        <state relative-caret-position="68">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobdescriptionfeature/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" selection-start-line="65" selection-start-column="4" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joblistfeature/src/main/res/navigation/job_list_navigation_graph.xml">
+      <provider editor-type-id="nav-designer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobdescriptionfeature/src/main/res/layout/fragment_job_description.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="96" column="44" selection-start-line="96" selection-start-column="44" selection-end-line="96" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usecase/src/test/java/com/example/usecase/exchangerates/DoConvertExchangeRateToRateItemUseCaseTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobdescriptionfeature/src/test/java/com/example/jobdescriptionfeature/ui/JobDescriptionViewModelTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+          <folding>
+            <element signature="e#46#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usecase/src/main/java/com/example/usecase/job/GetJobListUseCase.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usecase/src/test/java/com/example/usecase/exchangerates/GetJobItemsUseCaseTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
