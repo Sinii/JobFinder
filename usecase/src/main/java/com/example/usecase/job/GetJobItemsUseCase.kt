@@ -2,7 +2,6 @@ package com.example.usecase.job
 
 import com.example.base.usecase.BaseUseCase
 import com.example.jobs.JobItem
-import com.example.utils.dLog
 import javax.inject.Inject
 
 class GetJobItemsUseCase
@@ -29,7 +28,7 @@ class GetJobItemsUseCase
                     it.how_to_apply
                 )
             }
-        "GetJobItemsUseCase jobs = $jobs ".dLog()
+        //"GetJobItemsUseCase jobs = $jobs ".dLog()
 
         return Result(jobs, result.errorMessage)
     }

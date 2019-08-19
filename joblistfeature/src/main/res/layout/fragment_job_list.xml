@@ -2,35 +2,53 @@
 
 
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
+
         <variable
-                name="ratesViewModel"
-                type="com.anton.joblistfeature.ui.JobListViewModel" />
+            name="vm"
+            type="com.anton.joblistfeature.ui.JobListViewModel" />
     </data>
 
     <androidx.appcompat.widget.LinearLayoutCompat
-            android:id="@+id/constraintLayout"
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/jobPositionEditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:hint="Job position.."
+            android:inputType="text"
+            android:maxLines="1"
+            android:layout_margin="16dp"
+            android:padding="8dp"
+            android:textSize="16sp"
+            android:text="@={vm.jobPosition}"
+            app:textChangedListener="@{vm.jobPositionChangedListener}"
+            />
 
         <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/jobsRecyclerView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="16dp"
-                tools:listitem="@layout/item_job" />
+            android:id="@+id/jobsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            tools:itemCount="10"
+            tools:listitem="@layout/item_job"
+            tools:visibility="visible" />
 
         <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="@string/no_items_stub"
-                android:textSize="32sp"
-                android:visibility="@{ratesViewModel.showNoItemsStub}" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/no_items_stub"
+            android:textSize="32sp"
+            android:visibility="@{vm.showNoItemsStub}" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 </layout>

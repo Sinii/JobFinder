@@ -53,48 +53,48 @@ class JobListFragment : BaseFragment<FragmentJobListBinding, ViewModelFactory>()
             viewModelList.forEach { viewModel ->
                 when (viewModel) {
                     is JobListViewModel -> {
+                        binding.vm = viewModel
                         val layoutManager =
                             LinearLayoutManager(
                                 this@JobListFragment.requireContext(),
                                 RecyclerView.VERTICAL,
                                 false
                             )
-                        val adapter = JobsAdapter(
-                            ArrayList(), object : JobItemClickListener {
-                                @SuppressLint("ResourceType")
-                                override fun onClick(job: JobItem, sharedView: View?) {
-                                    val extras = if (sharedView != null)
-                                        FragmentNavigatorExtras(
-                                            sharedView toSharedPair SHARED_COPANY_LOGO_VIEW_KEY
-                                        )
-                                    else
-                                        null
-                                    val bundle = Bundle()
-                                        .apply {
-                                            putParcelable(JobItem::class.toString(), job)
-                                        }
-                                    if (extras != null) {
-                                        findNavController()
-                                            .navigate(
-                                                R.id.action_jobListFragment_to_jobDescriptionFragment,
-                                                bundle,
-                                                null,
-                                                extras
-                                            )
-                                    } else {
-                                        findNavController()
-                                            .navigate(
-                                                R.id.action_jobListFragment_to_jobDescriptionFragment,
-                                                bundle
-                                            )
+                        val adapter = JobsAdapter(ArrayList(), object : JobItemClickListener {
+                            @SuppressLint("ResourceType")
+                            override fun onClick(job: JobItem, sharedView: View?) {
+                                val extras = if (sharedView != null)
+                                    FragmentNavigatorExtras(
+                                        sharedView toSharedPair SHARED_COPANY_LOGO_VIEW_KEY
+                                    )
+                                else
+                                    null
+                                val bundle = Bundle()
+                                    .apply {
+                                        putParcelable(JobItem::class.toString(), job)
                                     }
+                                if (extras != null) {
+                                    findNavController()
+                                        .navigate(
+                                            R.id.action_jobListFragment_to_jobDescriptionFragment,
+                                            bundle,
+                                            null,
+                                            extras
+                                        )
+                                } else {
+                                    findNavController()
+                                        .navigate(
+                                            R.id.action_jobListFragment_to_jobDescriptionFragment,
+                                            bundle
+                                        )
                                 }
-                            })
+                            }
+                        })
                         binding.jobsRecyclerView.layoutManager = layoutManager
                         binding.jobsRecyclerView.adapter = adapter
 
                         viewModel.jobsList.observe(this, Observer { list ->
-                            adapter.addItems(list)
+                            adapter.updateJobItems(list)
                         })
                         skeletonScreen = Skeleton
                             .bind(binding.jobsRecyclerView)

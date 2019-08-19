@@ -3,7 +3,7 @@ package com.example.base.adapters
 import androidx.recyclerview.widget.RecyclerView
 
 abstract class BaseAdapter<VH : RecyclerView.ViewHolder, I>(
-    private val items: ArrayList<I>
+    var items: ArrayList<I>
 ) : RecyclerView.Adapter<VH>() {
 
     override fun getItemCount(): Int {

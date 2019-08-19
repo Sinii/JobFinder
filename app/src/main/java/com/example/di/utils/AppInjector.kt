@@ -8,11 +8,11 @@ import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.FragmentManager
 import com.example.di.BaseApp
 import com.example.di.DaggerAppComponent
-import com.example.interfaces.Injectable
 import com.example.utils.eLog
 import dagger.android.AndroidInjection
 import dagger.android.HasAndroidInjector
 import dagger.android.support.AndroidSupportInjection
+import dagger.android.support.DaggerFragment
 
 object AppInjector {
     fun init(app: BaseApp) {
@@ -48,9 +48,7 @@ object AppInjector {
                             f: Fragment,
                             savedInstanceState: Bundle?
                         ) {
-                            "activity is FragmentActivity".eLog()
-
-                            if (f is Injectable) {
+                            if (f is DaggerFragment) {
                                 try {
                                     AndroidSupportInjection.inject(f)
                                 } catch (exception: IllegalArgumentException) {

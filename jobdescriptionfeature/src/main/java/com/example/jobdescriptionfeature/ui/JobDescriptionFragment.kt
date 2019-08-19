@@ -1,5 +1,6 @@
 package com.example.jobdescriptionfeature.ui
 
+import android.text.method.LinkMovementMethod
 import com.example.base.di.ViewModelFactory
 import com.example.base.ui.BaseFragment
 import com.example.jobdescriptionfeature.R
@@ -21,7 +22,7 @@ class JobDescriptionFragment : BaseFragment<FragmentJobDescriptionBinding, ViewM
                         viewModel.jobDescription =
                             arguments?.getParcelable<JobItem>(JobItem::class.toString())
                         binding.vm = viewModel
-
+                        binding.descriptionTextView.movementMethod = LinkMovementMethod.getInstance()
                     }
                 }
             }
