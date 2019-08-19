@@ -3,7 +3,7 @@ package com.anton.joblistfeature.ui.adapter
 import androidx.recyclerview.widget.RecyclerView
 import com.anton.joblistfeature.databinding.ItemJobBinding
 import com.example.interfaces.JobItemClickListener
-import com.example.rates.JobItem
+import com.example.jobs.JobItem
 import com.example.utils.loadImage
 import kotlinx.android.synthetic.main.item_job.view.*
 

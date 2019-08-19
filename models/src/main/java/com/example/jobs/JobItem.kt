@@ -1,4 +1,4 @@
-package com.example.rates
+package com.example.jobs
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

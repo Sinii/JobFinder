@@ -3,8 +3,8 @@ package com.anton.joblistfeature.ui
 import android.view.View
 import android.view.View.GONE
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import com.example.rates.JobItem
-import com.example.usecase.exchangerates.GetJobItemsUseCase
+import com.example.jobs.JobItem
+import com.example.usecase.job.GetJobItemsUseCase
 import io.mockk.every
 import io.mockk.mockkClass
 import io.mockk.mockkStatic

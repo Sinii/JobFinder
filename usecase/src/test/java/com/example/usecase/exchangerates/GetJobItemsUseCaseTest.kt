@@ -1,6 +1,8 @@
 package com.example.usecase.exchangerates
 
-import com.example.rates.JobItem
+import com.example.jobs.JobItem
+import com.example.usecase.job.GetJobItemsUseCase
+import com.example.usecase.job.GetJobListUseCase
 import io.mockk.every
 import io.mockk.mockkClass
 import kotlinx.coroutines.runBlocking
@@ -20,7 +22,10 @@ class GetJobItemsUseCaseTest {
             }
         } returns GetJobListUseCase.Result(exchangeRate, null)
         val useCase =
-            GetJobItemsUseCase(getExchangeRateToRateItemUseCase, doConvertExchangeRateToRateItemUseCase)
+            GetJobItemsUseCase(
+                getExchangeRateToRateItemUseCase,
+                doConvertExchangeRateToRateItemUseCase
+            )
         runBlocking {
             val result = useCase.doWork(GetJobItemsUseCase.Params(exchangeRateItem))
             assert(result.errorMessage == null)
@@ -39,7 +44,10 @@ class GetJobItemsUseCaseTest {
             }
         } returns GetJobListUseCase.Result(exchangeRate, null)
         val useCase =
-            GetJobItemsUseCase(getExchangeRateToRateItemUseCase, doConvertExchangeRateToRateItemUseCase)
+            GetJobItemsUseCase(
+                getExchangeRateToRateItemUseCase,
+                doConvertExchangeRateToRateItemUseCase
+            )
         runBlocking {
             val result = useCase.doWork(GetJobItemsUseCase.Params(exchangeRateItem))
             assert(result.exchangeRatesItems == listOf(exchangeRateItem))
@@ -59,7 +67,10 @@ class GetJobItemsUseCaseTest {
             }
         } returns GetJobListUseCase.Result(exchangeRate, null)
         val useCase =
-            GetJobItemsUseCase(getExchangeRateToRateItemUseCase, doConvertExchangeRateToRateItemUseCase)
+            GetJobItemsUseCase(
+                getExchangeRateToRateItemUseCase,
+                doConvertExchangeRateToRateItemUseCase
+            )
         runBlocking {
             val result = useCase.doWork(GetJobItemsUseCase.Params(exchangeRateItem))
             assert(result.exchangeRatesItems == listOf(exchangeRateItem, exchangeRateItem))

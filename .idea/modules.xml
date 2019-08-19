@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/JobFinder.iml" filepath="$PROJECT_DIR$/.idea/JobFinder.iml" group="JobFinder" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="JobFinder/app" />
       <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" group="JobFinder/base" />
+      <module fileurl="file://$PROJECT_DIR$/jobdescription/jobdescription.iml" filepath="$PROJECT_DIR$/jobdescription/jobdescription.iml" group="JobFinder/jobdescription" />
+      <module fileurl="file://$PROJECT_DIR$/jobdescriptionfeature/jobdescriptionfeature.iml" filepath="$PROJECT_DIR$/jobdescriptionfeature/jobdescriptionfeature.iml" group="JobFinder/jobdescriptionfeature" />
       <module fileurl="file://$PROJECT_DIR$/joblistfeature/joblistfeature.iml" filepath="$PROJECT_DIR$/joblistfeature/joblistfeature.iml" group="JobFinder/joblistfeature" />
       <module fileurl="file://$PROJECT_DIR$/models/models.iml" filepath="$PROJECT_DIR$/models/models.iml" group="JobFinder/models" />
       <module fileurl="file://$PROJECT_DIR$/network/network.iml" filepath="$PROJECT_DIR$/network/network.iml" group="JobFinder/network" />

@@ -1,7 +1,7 @@
 package com.example.interfaces
 
 import android.view.View
-import com.example.rates.JobItem
+import com.example.jobs.JobItem
 
 interface JobItemClickListener {
 

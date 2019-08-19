@@ -1,7 +1,6 @@
 package com.example.base.ui
 
 import android.os.Bundle
-import android.os.Looper
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -106,9 +105,6 @@ abstract class BaseFragment<B : ViewDataBinding, VMF : ViewModelProvider.Factory
         var firstLaunch = true
         provideListOfViewModels()
             .forEach { viewModelClass ->
-                Looper.getMainLooper()
-
-
                 try {
                     @Suppress("UNCHECKED_CAST")
                     ViewModelProviders

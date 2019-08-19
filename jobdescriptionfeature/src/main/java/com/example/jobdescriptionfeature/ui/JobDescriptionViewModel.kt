@@ -5,7 +5,7 @@ import android.text.Html
 import android.text.Spanned
 import androidx.lifecycle.MutableLiveData
 import com.example.base.viewmodel.BaseViewModel
-import com.example.rates.JobItem
+import com.example.jobs.JobItem
 import javax.inject.Inject
 
 class JobDescriptionViewModel

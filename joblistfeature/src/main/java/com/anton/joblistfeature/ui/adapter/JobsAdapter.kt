@@ -7,7 +7,7 @@ import com.anton.joblistfeature.R
 import com.anton.joblistfeature.databinding.ItemJobBinding
 import com.example.base.adapters.BaseAdapter
 import com.example.interfaces.JobItemClickListener
-import com.example.rates.JobItem
+import com.example.jobs.JobItem
 
 class JobsAdapter(
     rateList: ArrayList<JobItem>,

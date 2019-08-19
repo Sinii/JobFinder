@@ -1,4 +1,4 @@
-package com.example.usecase.exchangerates
+package com.example.usecase.job
 
 import com.example.base.usecase.BaseUseCase
 import com.example.jobs.Job

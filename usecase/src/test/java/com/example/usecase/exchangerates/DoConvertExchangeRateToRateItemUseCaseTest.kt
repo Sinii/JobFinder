@@ -1,6 +1,6 @@
 package com.example.usecase.exchangerates
 
-import com.example.rates.JobItem
+import com.example.jobs.JobItem
 import kotlinx.coroutines.runBlocking
 import org.junit.Test
 

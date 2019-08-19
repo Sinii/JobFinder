@@ -4,8 +4,6 @@ import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.View
 import androidx.lifecycle.Observer
-import androidx.navigation.findNavController
-import androidx.navigation.fragment.FragmentNavigator
 import androidx.navigation.fragment.FragmentNavigatorExtras
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -19,9 +17,7 @@ import com.example.base.di.ViewModelFactory
 import com.example.base.ui.BaseFragment
 import com.example.base.viewmodel.ViewModelCommands
 import com.example.interfaces.JobItemClickListener
-import com.example.jobdescriptionfeature.ui.JobDescriptionFragmentArgs
-import com.example.jobs.Job
-import com.example.rates.JobItem
+import com.example.jobs.JobItem
 import com.example.utils.toSharedPair
 
 

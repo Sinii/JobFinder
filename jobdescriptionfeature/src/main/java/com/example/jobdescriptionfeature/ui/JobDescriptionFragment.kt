@@ -4,7 +4,7 @@ import com.example.base.di.ViewModelFactory
 import com.example.base.ui.BaseFragment
 import com.example.jobdescriptionfeature.R
 import com.example.jobdescriptionfeature.databinding.FragmentJobDescriptionBinding
-import com.example.rates.JobItem
+import com.example.jobs.JobItem
 
 
 class JobDescriptionFragment : BaseFragment<FragmentJobDescriptionBinding, ViewModelFactory>() {

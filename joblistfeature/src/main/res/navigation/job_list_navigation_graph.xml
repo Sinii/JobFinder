@@ -20,9 +20,6 @@
         android:name="com.example.jobdescriptionfeature.ui.JobDescriptionFragment"
         android:label="JobDescriptionFragment"
         tools:layout="@layout/fragment_job_description" >
-        <argument
-            android:name="job"
-            app:argType="com.example.rates.JobItem" />
     </fragment>
 
 
