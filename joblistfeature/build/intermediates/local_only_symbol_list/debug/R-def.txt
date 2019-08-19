@@ -1,0 +1,30 @@
+R_DEF: Internal format may change without notice
+local
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+color loadingStubColor
+color shineLoadingColor
+id action_jobListFragment_to_jobDescriptionFragment
+id amountText
+id amountText2
+id companyImageView
+id companyNameTextView
+id constraintLayout
+id currencyImage
+id jobArticleTextView
+id jobDescriptionFragment
+id jobItemLayout
+id jobListFragment
+id job_list_navigation_graph
+id jobsRecyclerView
+id layout
+id locationTextView
+layout fragment_job_list
+layout item_job
+layout item_job_skeleton
+navigation job_list_navigation_graph
+string action_settings
+string app_name
+string full_story_button
+string no_items_stub

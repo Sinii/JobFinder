@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#EFFFFF</color>
+    <color name="colorPrimaryDark">#E6E6E6E6</color>
+    <color name="loadingStubColor">#F2F4F8</color>
+    <color name="shineLoadingColor">#FFFFFFFF</color>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Job List Fragment Feature</string>
+    <string name="full_story_button">sdf</string>
+    <string name="no_items_stub">No jobs, sorry \n Have fun while you\'re unemployed</string>
+</resources>

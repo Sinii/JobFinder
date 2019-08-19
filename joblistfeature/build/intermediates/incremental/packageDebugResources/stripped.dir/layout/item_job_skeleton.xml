@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                                  
+                                                           
+                                                       
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+             android:tag="layout/item_job_skeleton_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <View
+                android:id="@+id/currencyImage"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:textSize="18sp"
+                tools:text="Send currency "
+                android:textStyle="bold"
+                android:background="@color/loadingStubColor"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="8dp"/>
+
+        <View
+            android:id="@+id/amountText"
+            android:layout_width="0dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/loadingStubColor"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/currencyImage"
+            app:layout_constraintTop_toTopOf="@+id/currencyImage"
+            tools:text="1.23123131" />
+
+        <View
+            android:id="@+id/amountText2"
+            android:layout_width="140dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/loadingStubColor"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/currencyImage"
+            app:layout_constraintTop_toBottomOf="@+id/amountText"
+            tools:text="1.23123131" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         
