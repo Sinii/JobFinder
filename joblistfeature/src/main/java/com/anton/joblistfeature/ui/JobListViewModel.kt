@@ -16,9 +16,11 @@ class JobListViewModel
     private val getJobItemsUseCase: GetJobItemsUseCase
 ) : BaseViewModel() {
 
+    val jobPosition = MutableLiveData(DEFAULT_JOB_POSITION)
     val jobsList = MutableLiveData<List<JobItem>>()
     val showNoItemsStub = MutableLiveData(GONE)
     private var requestJob: Job? = null
+    private var textChangedDebounceJob: Job? = null
 
     override fun restoreViewModel() {
         if (jobsList.value?.isNotEmpty() == true) {
@@ -39,9 +41,10 @@ class JobListViewModel
         val jobItems = getJobItemsUseCase
             .doWork(
                 GetJobItemsUseCase.Params(
-                "android developer",
-                null
-            ))
+                    jobPosition.value ?: DEFAULT_JOB_POSITION,
+                    null
+                )
+            )
         val exchangeRatesItems = jobItems.exchangeRatesItems
         val hasItems = !exchangeRatesItems.isNullOrEmpty()
         if (hasItems) {
@@ -52,5 +55,9 @@ class JobListViewModel
             showError(jobItems.errorMessage)
         }
         viewModelCommands.postValue(ViewModelCommands.DataLoaded)
+    }
+
+    companion object {
+        const val DEFAULT_JOB_POSITION = "android developer"
     }
 }

@@ -14,16 +14,16 @@ import androidx.navigation.fragment.findNavController
 import com.example.base.viewmodel.BaseViewModel
 import com.example.base.viewmodel.ViewModelCommands
 import com.example.interfaces.ActivityDefaultBehavior
-import com.example.interfaces.Injectable
 import com.example.utils.dLog
 import com.example.utils.eLog
 import com.example.utils.hideKeyboard
 import dagger.android.support.AndroidSupportInjection
+import dagger.android.support.DaggerFragment
 import javax.inject.Inject
 
 
 abstract class BaseFragment<B : ViewDataBinding, VMF : ViewModelProvider.Factory>
-    : Fragment(), Injectable {
+    : DaggerFragment() {
     @Inject
     lateinit var viewModelFactory: VMF
 

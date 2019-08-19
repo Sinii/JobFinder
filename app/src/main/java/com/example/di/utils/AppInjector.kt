@@ -11,8 +11,8 @@ import com.example.di.DaggerAppComponent
 import com.example.interfaces.Injectable
 import com.example.utils.eLog
 import dagger.android.AndroidInjection
+import dagger.android.HasAndroidInjector
 import dagger.android.support.AndroidSupportInjection
-import dagger.android.support.HasSupportFragmentInjector
 
 object AppInjector {
     fun init(app: BaseApp) {
@@ -36,7 +36,7 @@ object AppInjector {
     }
 
     private fun handleActivity(activity: Activity) {
-        if (activity is HasSupportFragmentInjector) {
+        if (activity is HasAndroidInjector) {
             AndroidInjection.inject(activity)
         }
         if (activity is FragmentActivity) {
@@ -48,6 +48,8 @@ object AppInjector {
                             f: Fragment,
                             savedInstanceState: Bundle?
                         ) {
+                            "activity is FragmentActivity".eLog()
+
                             if (f is Injectable) {
                                 try {
                                     AndroidSupportInjection.inject(f)
