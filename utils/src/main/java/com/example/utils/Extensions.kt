@@ -63,7 +63,6 @@ fun ImageView.loadImage(url: String?) {
         Glide
             .with(this.context)
             .load(url)
-           // .placeholder(R.drawable.)
             .apply(
                 RequestOptions()
                     .centerCrop()
@@ -74,7 +73,8 @@ fun ImageView.loadImage(url: String?) {
             )
             .into(this)
     } else {
-        //this.setImageDrawable(this.context.getDrawable(R.drawable.currency_place_holder))
+        //set placeholder
+        //this.setImageDrawable(this.context.getDrawable(R.drawable.place_holder))
     }
 }
 

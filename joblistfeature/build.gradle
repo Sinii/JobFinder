@@ -82,6 +82,8 @@ dependencies {
     kapt "com.google.dagger:dagger-android-processor:$daggerVersion"
     kapt "com.google.dagger:dagger-compiler:$daggerVersion"
 
+    implementation project(path: ':jobdescriptionfeature')
+
     implementation project(path: ':models')
     implementation project(path: ':usecase')
     implementation project(path: ':repository')

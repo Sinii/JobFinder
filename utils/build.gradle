@@ -5,6 +5,10 @@ apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion rootProject.compileSdkVersion
+    
+    dataBinding {
+        enabled = true
+    }
 
     defaultConfig {
         minSdkVersion rootProject.minSdkVersion

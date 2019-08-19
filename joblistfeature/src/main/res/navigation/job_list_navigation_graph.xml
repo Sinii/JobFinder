@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/job_list_navigation_graph"
+    app:startDestination="@+id/jobListFragment">
+
+    <fragment
+        android:id="@+id/jobListFragment"
+        android:name="com.anton.joblistfeature.ui.JobListFragment"
+        android:label="JobListFragment"
+        tools:layout="@layout/fragment_job_list">
+        <action
+            android:id="@+id/action_jobListFragment_to_jobDescriptionFragment"
+            app:destination="@id/jobDescriptionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/jobDescriptionFragment"
+        android:name="com.example.jobdescriptionfeature.ui.JobDescriptionFragment"
+        android:label="JobDescriptionFragment"
+        tools:layout="@layout/fragment_job_description" >
+        <argument
+            android:name="job"
+            app:argType="com.example.rates.JobItem" />
+    </fragment>
+
+
+</navigation>

@@ -7,7 +7,7 @@
     <data>
         <variable
                 name="ratesViewModel"
-                type="com.anton.converterfeature.ui.JobListViewModel" />
+                type="com.anton.joblistfeature.ui.JobListViewModel" />
     </data>
 
     <androidx.appcompat.widget.LinearLayoutCompat

@@ -1,8 +1,9 @@
 package com.example.interfaces
 
-import com.example.jobs.Job
+import android.view.View
+import com.example.rates.JobItem
 
 interface JobItemClickListener {
 
-    fun onClick(job: Job)
+    fun onClick(job: JobItem, sharedView: View?)
 }

@@ -15,7 +15,7 @@ class GetJobItemsUseCase
         val jobs = result
             .jobs
             ?.map {
-                return@map JobItem(it.title, it.company, it.location, it.company_logo)
+                return@map JobItem(it.title, it.company, it.location, it.company_logo, it.description, it.how_to_apply)
             }
         "GetJobItemsUseCase jobs = $jobs ".dLog()
 
